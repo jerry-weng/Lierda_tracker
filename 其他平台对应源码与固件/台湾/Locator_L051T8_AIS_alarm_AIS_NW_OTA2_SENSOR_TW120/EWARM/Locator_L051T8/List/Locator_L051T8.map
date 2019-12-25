@@ -1,0 +1,1057 @@
+###############################################################################
+#
+# IAR ELF Linker V7.70.1.11437/W32 for ARM                27/Sep/2018  17:54:09
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Exe\Locator_L051T8.out
+#    Map file     =  
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\List\Locator_L051T8.map
+#    Command line =  
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\adc.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\crc16.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\dma.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\flash.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\FOTA.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\gpio.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\gps.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\i2c.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\lis3dh.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\lsd_mems.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\main.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\nb.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\printf-stdarg.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\rtc.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\schedule.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\startup_stm32l051xx.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_adc.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_adc_ex.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_cortex.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_dma.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_flash.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_flash_ex.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_flash_ramfunc.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_gpio.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_i2c.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_i2c_ex.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_msp.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_pwr.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_pwr_ex.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_rcc.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_rcc_ex.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_rtc.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_rtc_ex.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_tim.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_tim_ex.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_uart.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_hal_uart_ex.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\stm32l0xx_it.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\system_stm32l0xx.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\tim.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\tools.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\UNIX.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\usart.o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj\User_ClockDriver.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Exe\Locator_L051T8.out
+#        --map
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\List\Locator_L051T8.map
+#        --config
+#        D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM/stm32l051xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08005800 { ro section .intvec };
+"P1":  place in [from 0x08005800 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20001fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section             Kind        Address    Size  Object
+  -------             ----        -------    ----  ------
+"A0":                                        0xc0
+  .intvec             ro code  0x08005800    0xc0  startup_stm32l051xx.o [1]
+                             - 0x080058c0    0xc0
+
+"P1":                                      0xa4c1
+  .text               ro code  0x080058c0  0x2b3a  main.o [1]
+  .text               ro code  0x080083fa     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x080083fc    0x20  stm32l0xx_hal.o [1]
+  .text               ro code  0x0800841c    0x10  stm32l0xx_hal.o [1]
+  .text               ro code  0x0800842c    0x1c  stm32l0xx_hal_pwr_ex.o [1]
+  .text               ro code  0x08008448    0xe8  gpio.o [1]
+  .text               ro code  0x08008530    0x3c  dma.o [1]
+  .text               ro code  0x0800856c   0x158  adc.o [1]
+  .text               ro code  0x080086c4   0x490  usart.o [1]
+  .text               ro code  0x08008b54   0x244  tim.o [1]
+  .text               ro code  0x08008d98    0xbc  rtc.o [1]
+  .text               ro code  0x08008e54   0x110  i2c.o [1]
+  .text               ro code  0x08008f64   0xa00  schedule.o [1]
+  .text               ro code  0x08009964   0x268  printf-stdarg.o [1]
+  .text               ro code  0x08009bcc    0x18  stm32l0xx_hal.o [1]
+  .text               ro code  0x08009be4    0x54  flash.o [1]
+  .text               ro code  0x08009c38    0x5c  ABImemcpy.o [4]
+  .text               ro code  0x08009c94   0x3cc  FOTA.o [1]
+  .text               ro code  0x0800a060    0xe8  lsd_mems.o [1]
+  .text               ro code  0x0800a148   0xa38  nb.o [1]
+  .text               ro code  0x0800ab80   0xa20  stm32l0xx_hal_uart.o [1]
+  .text               ro code  0x0800b5a0    0x2c  strncmp.o [3]
+  .text               ro code  0x0800b5cc   0x2f4  User_ClockDriver.o [1]
+  .text               ro code  0x0800b8c0   0x718  stm32l0xx_hal_rcc.o [1]
+  .text               ro code  0x0800bfd8   0x2a0  stm32l0xx_hal_rcc_ex.o [1]
+  .text               ro code  0x0800c278    0xe0  I32DivModFast.o [4]
+  .text               ro code  0x0800c358    0xb6  stm32l0xx_hal_cortex.o [1]
+  .text               ro code  0x0800c40e     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800c410    0x38  stm32l0xx_hal_pwr.o [1]
+  .text               ro code  0x0800c448   0x2dc  stm32l0xx_hal_gpio.o [1]
+  .text               ro code  0x0800c724   0x3f8  gps.o [1]
+  .text               ro code  0x0800cb1c    0x50  strtok.o [3]
+  .text               ro code  0x0800cb6c    0x10  strlen.o [4]
+  .text               ro code  0x0800cb7c   0x1c8  tools.o [1]
+  .text               ro code  0x0800cd44    0x38  strstr.o [3]
+  .text               ro code  0x0800cd7c   0x17c  xstoul.o [3]
+  .text               ro code  0x0800cef8    0x14  uwrite4.o [4]
+  .text               ro code  0x0800cf0c   0x1b4  stm32l0xx_hal_rtc_ex.o [1]
+  .text               ro code  0x0800d0c0   0x394  stm32l0xx_hal_tim.o [1]
+  .text               ro code  0x0800d454   0x434  stm32l0xx_hal_adc.o [1]
+  .text               ro code  0x0800d888    0x4c  ABImemset.o [4]
+  .text               ro code  0x0800d8d4    0x28  stm32l0xx_hal.o [1]
+  .text               ro code  0x0800d8fc    0x40  stm32l0xx_hal_msp.o [1]
+  .text               ro code  0x0800d93c   0x6bc  stm32l0xx_hal_dma.o [1]
+  .text               ro code  0x0800dff8    0x48  stm32l0xx_hal_tim_ex.o [1]
+  .text               ro code  0x0800e040   0x3a2  stm32l0xx_hal_rtc.o [1]
+  .text               ro code  0x0800e3e2     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800e3e4   0x5e8  stm32l0xx_hal_i2c.o [1]
+  .text               ro code  0x0800e9cc    0x88  stm32l0xx_hal_i2c_ex.o [1]
+  .text               ro code  0x0800ea54    0x16  uread4.o [4]
+  .text               ro code  0x0800ea6a     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800ea6c     0xc  stm32l0xx_hal.o [1]
+  .text               ro code  0x0800ea78    0x88  stm32l0xx_hal_flash_ex.o [1]
+  .text               ro code  0x0800eb00    0x36  crc16.o [1]
+  .text               ro code  0x0800eb36    0x28  memcmp.o [4]
+  .text               ro code  0x0800eb5e     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800eb60   0x31c  lis3dh.o [1]
+  .text               ro code  0x0800ee7c    0x24  strncpy.o [4]
+  .text               ro code  0x0800eea0   0x180  UNIX.o [1]
+  .text               ro code  0x0800f020     0x2  stm32l0xx_hal_uart.o [1]
+  .text               ro code  0x0800f022     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800f024     0x2  stm32l0xx_hal_uart_ex.o [1]
+  .text               ro code  0x0800f026    0x6a  I64DivMod.o [4]
+  .text               ro code  0x0800f090     0x2  stm32l0xx_hal_uart.o [1]
+  .text               ro code  0x0800f092     0x2  stm32l0xx_hal_uart.o [1]
+  .text               ro code  0x0800f094     0x2  IntDivZer.o [4]
+  .text               ro code  0x0800f096     0x2  xtls.o [3]
+  .text               ro code  0x0800f098    0x24  strspn.o [3]
+  .text               ro code  0x0800f0bc    0x24  strcspn.o [3]
+  .text               ro code  0x0800f0e0     0x8  exit.o [3]
+  .text               ro code  0x0800f0e8    0x1c  strcat.o [3]
+  .text               ro code  0x0800f104    0x10  strcpy.o [4]
+  .text               ro code  0x0800f114    0x12  isxxx.o [3]
+  .text               ro code  0x0800f126    0x12  tolower.o [3]
+  .text               ro code  0x0800f138    0x18  memchr.o [4]
+  .text               ro code  0x0800f150    0x10  errno.o [3]
+  .text               ro code  0x0800f160     0x2  stm32l0xx_hal_tim.o [1]
+  .text               ro code  0x0800f162     0x2  stm32l0xx_hal_tim.o [1]
+  .text               ro code  0x0800f164     0x2  stm32l0xx_hal_tim.o [1]
+  .text               ro code  0x0800f166     0x2  stm32l0xx_hal_tim.o [1]
+  .text               ro code  0x0800f168     0x2  stm32l0xx_hal_tim.o [1]
+  .text               ro code  0x0800f16a     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800f16c   0x11c  stm32l0xx_hal_flash.o [1]
+  .text               ro code  0x0800f288     0x2  I64DivZer.o [4]
+  .text               ro code  0x0800f28a     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800f28c     0xa  cexit.o [4]
+  .text               ro code  0x0800f296     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800f298    0x14  setlocale.o [3]
+  .text               ro code  0x0800f2ac    0x14  xlocale_c.o [3]
+  .text               ro code  0x0800f2c0     0xc  xlocale_c.o [3]
+  .text               ro code  0x0800f2cc    0x14  exit.o [5]
+  .rodata             const    0x0800f2e0   0x558  main.o [1]
+  .text               ro code  0x0800f838    0xdc  stm32l0xx_it.o [1]
+  .text               ro code  0x0800f914    0x10  stm32l0xx_hal.o [1]
+  .text               ro code  0x0800f924    0x78  system_stm32l0xx.o [1]
+  .text               ro code  0x0800f99c    0x3c  zero_init3.o [4]
+  .text               ro code  0x0800f9d8    0x3c  packbits_init_single.o [4]
+  .text               ro code  0x0800fa14    0x28  data_init.o [4]
+  .iar.init_table     const    0x0800fa3c    0x20  - Linker created -
+  .text               ro code  0x0800fa5c    0x1a  cmain.o [4]
+  .text               ro code  0x0800fa76     0x4  low_level_init.o [3]
+  .text               ro code  0x0800fa7a     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800fa7c    0x10  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800fa8c     0xc  cstartup_M.o [4]
+  .rodata             const    0x0800fa98     0x8  system_stm32l0xx.o [1]
+  .text               ro code  0x0800faa0     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800faa2     0x2  startup_stm32l051xx.o [1]
+  .text               ro code  0x0800faa4     0x2  startup_stm32l051xx.o [1]
+  .rodata             const    0x0800faa6     0x0  zero_init3.o [4]
+  .rodata             const    0x0800faa6     0x0  packbits_init_single.o [4]
+  Initializer bytes   const    0x0800faa6   0x2db  <for P2-1>
+                             - 0x0800fd81  0xa4c1
+
+"P2", part 1 of 3:                          0x3e8
+  P2-1                         0x20000000   0x3e8  <Init block>
+    .data             inited   0x20000000    0x14  adc.o [1]
+    .data             inited   0x20000014   0x200  crc16.o [1]
+    .data             inited   0x20000214    0xbc  main.o [1]
+    .data             inited   0x200002d0    0x78  nb.o [1]
+    .data             inited   0x20000348     0xd  schedule.o [1]
+    .data             inited   0x20000358     0x4  system_stm32l0xx.o [1]
+    .data             inited   0x2000035c    0x10  User_ClockDriver.o [1]
+    __DLIB_PERTHREAD  inited   0x2000036c     0x4  strtok.o [3]
+    __DLIB_PERTHREAD  inited   0x20000370    0x74  setlocale.o [3]
+    __DLIB_PERTHREAD  inited   0x200003e4     0x4  errno.o [3]
+                             - 0x200003e8   0x3e8
+
+"P2", part 2 of 3:                          0x400
+  CSTACK                       0x200003e8   0x400  <Block>
+    CSTACK            uninit   0x200003e8   0x400  <Block tail>
+                             - 0x200007e8   0x400
+
+"P2", part 3 of 3:                         0x15c4
+  .bss                zero     0x200007e8   0x488  usart.o [1]
+  .bss                zero     0x20000c70   0x400  tools.o [1]
+  .bss                zero     0x20001070   0x348  schedule.o [1]
+  .bss                zero     0x200013b8   0x180  usart.o [1]
+  .bss                zero     0x20001538   0x12c  User_ClockDriver.o [1]
+  .bss                zero     0x20001664    0xd4  gps.o [1]
+  .bss                zero     0x20001738    0xd4  gps.o [1]
+  .bss                zero     0x2000180c    0x9a  FOTA.o [1]
+  .bss                zero     0x200018a6     0x2  main.o [1]
+  .bss                zero     0x200018a8    0x84  main.o [1]
+  .bss                zero     0x2000192c    0x70  usart.o [1]
+  .bss                zero     0x2000199c    0x70  usart.o [1]
+  .bss                zero     0x20001a0c    0x70  usart.o [1]
+  .bss                zero     0x20001a7c    0x60  adc.o [1]
+  .bss                zero     0x20001adc    0x4c  i2c.o [1]
+  .bss                zero     0x20001b28    0x38  tim.o [1]
+  .bss                zero     0x20001b60    0x38  tim.o [1]
+  .bss                zero     0x20001b98    0x38  tim.o [1]
+  .bss                zero     0x20001bd0    0x34  FOTA.o [1]
+  .bss                zero     0x20001c04    0x2c  schedule.o [1]
+  .bss                zero     0x20001c30    0x28  FOTA.o [1]
+  .bss                zero     0x20001c58    0x28  gps.o [1]
+  .bss                zero     0x20001c80    0x28  nb.o [1]
+  .bss                zero     0x20001ca8    0x24  nb.o [1]
+  .bss                zero     0x20001ccc    0x24  rtc.o [1]
+  .bss                zero     0x20001cf0    0x18  stm32l0xx_hal_flash.o [1]
+  .bss                zero     0x20001d08    0x14  schedule.o [1]
+  .bss                zero     0x20001d1c    0x10  nb.o [1]
+  .bss                zero     0x20001d2c     0xc  main.o [1]
+  .bss                zero     0x20001d38     0xc  nb.o [1]
+  .bss                zero     0x20001d44     0xc  nb.o [1]
+  .bss                zero     0x20001d50     0xc  nb.o [1]
+  .bss                zero     0x20001d5c     0xc  nb.o [1]
+  .bss                zero     0x20001d68     0x8  schedule.o [1]
+  .bss                zero     0x20001d70     0x8  schedule.o [1]
+  .bss                zero     0x20001d78     0x8  UNIX.o [1]
+  .bss                zero     0x20001d80     0x4  gps.o [1]
+  .bss                zero     0x20001d84     0x4  gps.o [1]
+  .bss                zero     0x20001d88     0x4  nb.o [1]
+  .bss                zero     0x20001d8c     0x4  stm32l0xx_hal.o [1]
+  .bss                zero     0x20001d90     0x2  nb.o [1]
+  .bss                zero     0x20001d92     0x1  gps.o [1]
+  .bss                zero     0x20001d93     0x1  lis3dh.o [1]
+  .bss                zero     0x20001d94     0x1  lsd_mems.o [1]
+  .bss                zero     0x20001d95     0x1  main.o [1]
+  .bss                zero     0x20001d96     0x1  nb.o [1]
+  .bss                zero     0x20001d97     0x1  nb.o [1]
+  .bss                zero     0x20001d98     0x1  nb.o [1]
+  .bss                zero     0x20001d99     0x1  nb.o [1]
+  .bss                zero     0x20001d9a     0x1  nb.o [1]
+  .bss                zero     0x20001d9b     0x1  nb.o [1]
+  .bss                zero     0x20001d9c     0x1  nb.o [1]
+  .bss                zero     0x20001d9d     0x1  nb.o [1]
+  .bss                zero     0x20001d9e     0x1  nb.o [1]
+  .bss                zero     0x20001d9f     0x1  nb.o [1]
+  .bss                zero     0x20001da0     0x1  nb.o [1]
+  .bss                zero     0x20001da1     0x1  nb.o [1]
+  .bss                zero     0x20001da2     0x1  schedule.o [1]
+  .bss                zero     0x20001da3     0x1  schedule.o [1]
+  .bss                zero     0x20001da4     0x1  schedule.o [1]
+  .bss                zero     0x20001da5     0x1  schedule.o [1]
+  .bss                zero     0x20001da6     0x1  schedule.o [1]
+  .bss                zero     0x20001da7     0x1  schedule.o [1]
+  .bss                zero     0x20001da8     0x1  schedule.o [1]
+                             - 0x20001da9  0x15c1
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x15c1:
+          0x200007e8  0x15c1
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x2db (73% of destination):
+          0x0800faa6   0x2db
+    1 destination range, total size 0x3e8:
+          0x20000000   0x3e8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
+D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj: [1]
+    FOTA.o                        972               246
+    UNIX.o                        384                 8
+    User_ClockDriver.o            756       12      316
+    adc.o                         344       14      116
+    crc16.o                        54      374      512
+    dma.o                          60
+    flash.o                        84
+    gpio.o                        232
+    gps.o                       1 016               473
+    i2c.o                         272                76
+    lis3dh.o                      796                 1
+    lsd_mems.o                    232                 1
+    main.o                     11 066    1 506      335
+    nb.o                        2 616       88      278
+    printf-stdarg.o               616
+    rtc.o                         188                36
+    schedule.o                  2 560        9      940
+    startup_stm32l051xx.o         234
+    stm32l0xx_hal.o               140                 4
+    stm32l0xx_hal_adc.o         1 076
+    stm32l0xx_hal_cortex.o        182
+    stm32l0xx_hal_dma.o         1 724
+    stm32l0xx_hal_flash.o         284                24
+    stm32l0xx_hal_flash_ex.o      136
+    stm32l0xx_hal_gpio.o          732
+    stm32l0xx_hal_i2c.o         1 512
+    stm32l0xx_hal_i2c_ex.o        136
+    stm32l0xx_hal_msp.o            64
+    stm32l0xx_hal_pwr.o            56
+    stm32l0xx_hal_pwr_ex.o         28
+    stm32l0xx_hal_rcc.o         1 816
+    stm32l0xx_hal_rcc_ex.o        672
+    stm32l0xx_hal_rtc.o           930
+    stm32l0xx_hal_rtc_ex.o        436
+    stm32l0xx_hal_tim.o           926
+    stm32l0xx_hal_tim_ex.o         72
+    stm32l0xx_hal_uart.o        2 598
+    stm32l0xx_hal_uart_ex.o         2
+    stm32l0xx_it.o                220
+    system_stm32l0xx.o            120       13        4
+    tim.o                         580               168
+    tools.o                       456             1 024
+    usart.o                     1 168             1 880
+    ---------------------------------------------------
+    Total:                     38 548    2 016    6 442
+
+command line: [2]
+    ---------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    errno.o                        16        3        4
+    exit.o                          8
+    isxxx.o                        18
+    low_level_init.o                4
+    setlocale.o                    20       85      116
+    strcat.o                       28
+    strcspn.o                      36
+    strncmp.o                      44
+    strspn.o                       36
+    strstr.o                       56
+    strtok.o                       80        3        4
+    tolower.o                      18
+    xlocale_c.o                    32
+    xstoul.o                      380
+    xtls.o                          2
+    ---------------------------------------------------
+    Total:                        778       91      124
+
+rt6M_tl.a: [4]
+    ABImemcpy.o                    92
+    ABImemset.o                    76
+    I32DivModFast.o               224
+    I64DivMod.o                   106
+    I64DivZer.o                     2
+    IntDivZer.o                     2
+    cexit.o                        10
+    cmain.o                        26
+    cstartup_M.o                   12
+    data_init.o                    40
+    memchr.o                       24
+    memcmp.o                       40
+    packbits_init_single.o         60
+    strcpy.o                       16
+    strlen.o                       16
+    strncpy.o                      36
+    uread4.o                       22
+    uwrite4.o                      20
+    zero_init3.o                   60
+    ---------------------------------------------------
+    Total:                        884
+
+shb_l.a: [5]
+    exit.o                         20
+    ---------------------------------------------------
+    Total:                         20
+
+    Gaps                                              3
+    Linker created                          32    1 024
+-------------------------------------------------------
+    Grand Total:               40 230    2 139    7 593
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x0800fa3c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800fa5c          --   Gb  - Linker created -
+?main                   0x0800fa5d         Code  Gb  cmain.o [4]
+ADCConverclock          0x200018d4    0xc  Data  Gb  main.o [1]
+ADCTimerCb              0x08005fb1    0x2  Code  Gb  main.o [1]
+ADC_DelayMicroSecond    0x0800d847   0x24  Code  Lc  stm32l0xx_hal_adc.o [1]
+ADC_Enable              0x0800d7eb   0x4c  Code  Lc  stm32l0xx_hal_adc.o [1]
+AD_Value                0x20000240    0x4  Data  Gb  main.o [1]
+AD_ValueSum             0x20000244    0x4  Data  Gb  main.o [1]
+AHBPrescTable           0x0800f980   0x10  Data  Gb  system_stm32l0xx.o [1]
+APBPrescTable           0x0800fa98    0x8  Data  Gb  system_stm32l0xx.o [1]
+APPUnbindclock          0x20001d5c    0xc  Data  Gb  nb.o [1]
+ATTimeoutCb             0x080069fd   0xf4  Code  Gb  main.o [1]
+ATTimeoutclock          0x2000033c    0xc  Data  Gb  nb.o [1]
+AT_Retry_Num            0x200002ed    0x1  Data  Gb  nb.o [1]
+ActivedTimerNum         0x0800b885   0x2a  Code  Lc  User_ClockDriver.o [1]
+AntiShakeTimerStartFlag
+                        0x200018ad    0x1  Data  Gb  main.o [1]
+BatValueConvert         0x0800860d   0x4a  Code  Gb  adc.o [1]
+Bat_Level               0x20000354    0x1  Data  Gb  schedule.o [1]
+Bat_OK_Flag             0x2000022d    0x1  Data  Gb  main.o [1]
+Bat_Value               0x2000023c    0x4  Data  Gb  main.o [1]
+Battery_Votege_Level_Normal
+                        0x20000000   0x14  Data  Gb  adc.o [1]
+BoardCloseCb            0x0800636d    0x8  Code  Gb  main.o [1]
+BoardCloseTimeoutclock  0x20001cb4    0xc  Data  Gb  nb.o [1]
+BoardSleep              0x080074bd   0x78  Code  Gb  main.o [1]
+BoardStart              0x20000220    0x1  Data  Gb  main.o [1]
+CMD_packageNum          0x20001d9c    0x1  Data  Gb  nb.o [1]
+CSTACK$$Base            0x200003e8          --   Gb  - Linker created -
+CSTACK$$Limit           0x200007e8          --   Gb  - Linker created -
+CalendarList            0x20001070  0x348  Data  Gb  schedule.o [1]
+CellReselection         0x200002ac   0x24  Data  Lc  main.o [1]
+ClearFreq               0x20000288   0x10  Data  Lc  main.o [1]
+CloseEdrx               0x2000024c   0x1c  Data  Lc  main.o [1]
+Close_GPS               0x0800c72f    0x6  Code  Gb  gps.o [1]
+Close_NB                0x0800a157    0x2  Code  Gb  nb.o [1]
+Coap_EnterSleep         0x0800aa51   0x52  Code  Gb  nb.o [1]
+Coap_Haed               0x20001c80   0x28  Data  Gb  nb.o [1]
+CurrentDayInTheLoop     0x20001c21    0x1  Data  Gb  schedule.o [1]
+DMA1_Channel2_3_IRQHandler
+                        0x0800f879   0x10  Code  Gb  stm32l0xx_it.o [1]
+DMA1_Channel4_5_6_7_IRQHandler
+                        0x0800f889   0x1c  Code  Gb  stm32l0xx_it.o [1]
+DMA_SetConfig           0x0800dfe1   0x18  Code  Lc  stm32l0xx_hal_dma.o [1]
+DataReport              0x0800810d  0x13a  Code  Gb  main.o [1]
+DataRptCb               0x08008069    0x8  Code  Gb  main.o [1]
+DataRptclock            0x20001cc0    0xc  Data  Gb  nb.o [1]
+DataRspTimerCb          0x08005fb3  0x178  Code  Gb  main.o [1]
+DataRspclock            0x200002f8    0xc  Data  Gb  nb.o [1]
+DataUpFlag              0x20001ca8    0x1  Data  Gb  nb.o [1]
+DaySwitchCounter        0x20001c22    0x1  Data  Gb  schedule.o [1]
+DeviceRegistCb          0x08006375   0x7c  Code  Gb  main.o [1]
+DeviceRegistclock       0x20001d20    0xc  Data  Gb  nb.o [1]
+Device_Close_GPS        0x08007fe5   0x28  Code  Gb  main.o [1]
+Device_Open_GPS         0x08007f65   0x6a  Code  Gb  main.o [1]
+Device_Open_NB          0x08007ee1   0x70  Code  Gb  main.o [1]
+EEPROM_ReadBytes        0x08009c17   0x16  Code  Gb  flash.o [1]
+EEPROM_WriteBytes       0x08009be5    0x2  Code  Gb  flash.o [1]
+EXTI0_1_IRQHandler      0x0800f857    0xa  Code  Gb  stm32l0xx_it.o [1]
+EXTI4_15_IRQHandler     0x0800f861   0x18  Code  Gb  stm32l0xx_it.o [1]
+EvenPressCb             0x08007c4d   0x46  Code  Gb  main.o [1]
+EvenPressFlag           0x2000021c    0x1  Data  Gb  main.o [1]
+EvenPressTimerStartFlag
+                        0x200018af    0x1  Data  Gb  main.o [1]
+EvenPressclock          0x200018f8    0xc  Data  Gb  main.o [1]
+ExtraDataupFlag         0x20001d9e    0x1  Data  Gb  nb.o [1]
+ExtraDataupLEDFlag      0x20000223    0x1  Data  Gb  main.o [1]
+ExtraDataupPreMode      0x20000225    0x1  Data  Gb  main.o [1]
+ExtraDataupTimerFlag    0x20000224    0x1  Data  Gb  main.o [1]
+FLASH_SetErrorCode      0x0800f1db   0xa4  Code  Lc  stm32l0xx_hal_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x0800f16d   0x6c  Code  Gb  stm32l0xx_hal_flash.o [1]
+FOTA_Cmplt_Flag         0x20001cae    0x1  Data  Gb  nb.o [1]
+FOTA_Cmplt_Flag_Read    0x08009f65    0xe  Code  Gb  FOTA.o [1]
+FOTA_Cmplt_Flag_Write   0x08009f57    0xe  Code  Gb  FOTA.o [1]
+FOTA_Continue_Flag_Write
+                        0x08009f49    0xe  Code  Gb  FOTA.o [1]
+FOTA_Info_Save          0x08009ef9    0xe  Code  Gb  FOTA.o [1]
+FOTA_Msg_Process        0x08009d1f   0x3e  Code  Gb  FOTA.o [1]
+FOTA_New_Info_Check     0x08009eb5   0x44  Code  Gb  FOTA.o [1]
+FOTA_New_Version_Process
+                        0x08009db5   0x7c  Code  Gb  FOTA.o [1]
+FOTA_New_Version_Rsp    0x08009e31   0x14  Code  Gb  FOTA.o [1]
+FOTA_Success_Rsp        0x08009e6f   0x44  Code  Gb  FOTA.o [1]
+FOTA_Task_Flag_Write    0x08009f31    0xe  Code  Gb  FOTA.o [1]
+FOTA_Version_Rsp        0x08009d5d   0x56  Code  Gb  FOTA.o [1]
+Form_AT_Head            0x0800a3a1   0x84  Code  Gb  nb.o [1]
+GPSInfoProcess          0x08006165  0x114  Code  Gb  main.o [1]
+GPSKeepCb               0x08007ca1   0x74  Code  Gb  main.o [1]
+GPSKeepCounter          0x20000248    0x4  Data  Gb  main.o [1]
+GPSKeepTimeoutFlag      0x200018b1    0x1  Data  Gb  main.o [1]
+GPSKeepTimerStartFlag   0x200018b0    0x1  Data  Gb  main.o [1]
+GPSKeepclock            0x20001904    0xc  Data  Gb  main.o [1]
+GPSRMCCb                0x08007d15   0x14  Code  Gb  main.o [1]
+GPSRMCCounter           0x20001d95    0x1  Data  Gb  main.o [1]
+GPSRMCclock             0x20001910    0xc  Data  Gb  main.o [1]
+GPSSerchTimerStartFlag  0x200018ae    0x1  Data  Gb  main.o [1]
+GPSTimeOutclock         0x20001d50    0xc  Data  Gb  nb.o [1]
+GPS_GSV_Data            0x20001d80    0x4  Data  Gb  gps.o [1]
+GPS_GSV_Data_process    0x0800c949  0x1a8  Code  Gb  gps.o [1]
+GPS_Info                0x20001664   0xd4  Data  Gb  gps.o [1]
+GPS_Info_Delete         0x0800c771   0x14  Code  Gb  gps.o [1]
+GPS_Info_Store          0x0800c73f   0x32  Code  Gb  gps.o [1]
+GPS_Info_schedule       0x20001738   0xd4  Data  Gb  gps.o [1]
+GPS_Rx_Data_process     0x0800c785  0x19e  Code  Gb  gps.o [1]
+GPS_SerchTimeoutCb      0x080062a1   0x9e  Code  Gb  main.o [1]
+GPS_TO_NB_Data          0x20001928    0x4  Data  Gb  main.o [1]
+GPS_TO_NB_GSV_Data      0x20001d84    0x4  Data  Gb  gps.o [1]
+GPS_TO_NB_TimeOut_Data  0x20001c6c   0x14  Data  Gb  gps.o [1]
+HAL_ADC_ConfigChannel   0x0800d743   0xa4  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_GetState        0x0800d7e7    0x4  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_GetValue        0x0800d73d    0x6  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_Init            0x0800d455  0x1a4  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_MspInit         0x080085db   0x32  Code  Gb  adc.o [1]
+HAL_ADC_PollForConversion
+                        0x0800d655   0xc6  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_Start           0x0800d5f9   0x4c  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_DMA_Abort           0x0800dc49   0x4e  Code  Gb  stm32l0xx_hal_dma.o [1]
+HAL_DMA_Abort_IT        0x0800dca9   0x80  Code  Gb  stm32l0xx_hal_dma.o [1]
+HAL_DMA_DeInit          0x0800da29  0x1b6  Code  Gb  stm32l0xx_hal_dma.o [1]
+HAL_DMA_IRQHandler      0x0800dd35  0x28e  Code  Gb  stm32l0xx_hal_dma.o [1]
+HAL_DMA_Init            0x0800d93d   0xe6  Code  Gb  stm32l0xx_hal_dma.o [1]
+HAL_DMA_Start_IT        0x0800dbf9   0x50  Code  Gb  stm32l0xx_hal_dma.o [1]
+HAL_Delay               0x08009bcd   0x18  Code  Wk  stm32l0xx_hal.o [1]
+HAL_FLASHEx_DATAEEPROM_Lock
+                        0x0800ea91    0xe  Code  Gb  stm32l0xx_hal_flash_ex.o [1]
+HAL_FLASHEx_DATAEEPROM_Program
+                        0x0800eaa5   0x48  Code  Gb  stm32l0xx_hal_flash_ex.o [1]
+HAL_FLASHEx_DATAEEPROM_Unlock
+                        0x0800ea79   0x18  Code  Gb  stm32l0xx_hal_flash_ex.o [1]
+HAL_GPIO_DeInit         0x0800c5cf  0x100  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GPIO_EXTI_Callback  0x08005cc5    0x8  Code  Gb  main.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                        0x0800c6ef   0x14  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GPIO_Init           0x0800c449  0x186  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x0800c6cf    0xc  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin      0x0800c6e7    0x8  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x0800c6db    0xc  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GetTick             0x0800ea6d    0xc  Code  Wk  stm32l0xx_hal.o [1]
+HAL_I2CEx_ConfigAnalogFilter
+                        0x0800e9cd   0x38  Code  Gb  stm32l0xx_hal_i2c_ex.o [1]
+HAL_I2CEx_ConfigDigitalFilter
+                        0x0800ea05   0x34  Code  Gb  stm32l0xx_hal_i2c_ex.o [1]
+HAL_I2C_Init            0x0800e3e5   0xa8  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_I2C_Mem_Read        0x0800e5f1  0x160  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_I2C_Mem_Write       0x0800e499  0x156  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x08008eb3   0x48  Code  Gb  i2c.o [1]
+HAL_IncTick             0x0800f915   0x10  Code  Wk  stm32l0xx_hal.o [1]
+HAL_Init                0x080083fd   0x1a  Code  Gb  stm32l0xx_hal.o [1]
+HAL_InitTick            0x0800d8d5   0x28  Code  Wk  stm32l0xx_hal.o [1]
+HAL_MspInit             0x0800d8fd   0x40  Code  Gb  stm32l0xx_hal_msp.o [1]
+HAL_NVIC_DisableIRQ     0x0800c3a3    0xe  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ      0x0800c395    0xe  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x0800c38d    0x8  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_PWREx_EnableFastWakeUp
+                        0x0800842d    0xc  Code  Gb  stm32l0xx_hal_pwr_ex.o [1]
+HAL_PWREx_EnableUltraLowPower
+                        0x08008439    0xc  Code  Gb  stm32l0xx_hal_pwr_ex.o [1]
+HAL_PWR_EnterSTOPMode   0x0800c411   0x30  Code  Gb  stm32l0xx_hal_pwr.o [1]
+HAL_RCCEx_GetPeriphCLKFreq
+                        0x0800c12d  0x110  Code  Gb  stm32l0xx_hal_rcc_ex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x0800bfd9  0x14c  Code  Gb  stm32l0xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x0800bca1  0x15e  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x0800be7d    0x6  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetOscConfig    0x0800beb1   0x9a  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x0800be83    0xe  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x0800be9d    0xc  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x0800be11   0x6c  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x0800b8c1  0x3ca  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RTCEx_DeactivateWakeUpTimer
+                        0x0800cff9   0x7c  Code  Gb  stm32l0xx_hal_rtc_ex.o [1]
+HAL_RTCEx_SetWakeUpTimer_IT
+                        0x0800cf0d   0xbc  Code  Gb  stm32l0xx_hal_rtc_ex.o [1]
+HAL_RTCEx_WakeUpTimerEventCallback
+                        0x0800758d  0x13e  Code  Gb  main.o [1]
+HAL_RTCEx_WakeUpTimerIRQHandler
+                        0x0800d075   0x30  Code  Gb  stm32l0xx_hal_rtc_ex.o [1]
+HAL_RTC_GetDate         0x0800e2ed   0x3e  Code  Gb  stm32l0xx_hal_rtc.o [1]
+HAL_RTC_GetTime         0x0800e1df   0x4c  Code  Gb  stm32l0xx_hal_rtc.o [1]
+HAL_RTC_Init            0x0800e041   0xa0  Code  Gb  stm32l0xx_hal_rtc.o [1]
+HAL_RTC_MspInit         0x08008dc9   0x2a  Code  Gb  rtc.o [1]
+HAL_RTC_SetDate         0x0800e22b   0xbe  Code  Gb  stm32l0xx_hal_rtc.o [1]
+HAL_RTC_SetTime         0x0800e0e1   0xfe  Code  Gb  stm32l0xx_hal_rtc.o [1]
+HAL_RTC_WaitForSynchro  0x0800e34b   0x30  Code  Gb  stm32l0xx_hal_rtc.o [1]
+HAL_ResumeTick          0x0800841d   0x10  Code  Wk  stm32l0xx_hal.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x0800c3d9   0x18  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_SYSTICK_Callback    0x0800c40d    0x2  Code  Wk  stm32l0xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x0800c3b1   0x28  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x0800c3f1    0x8  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                        0x0800dff9   0x48  Code  Gb  stm32l0xx_hal_tim_ex.o [1]
+HAL_TIM_Base_DeInit     0x0800d0df   0x22  Code  Gb  stm32l0xx_hal_tim.o [1]
+HAL_TIM_Base_Init       0x0800d0c1   0x1e  Code  Gb  stm32l0xx_hal_tim.o [1]
+HAL_TIM_Base_MspDeInit  0x08008ce3   0x42  Code  Gb  tim.o [1]
+HAL_TIM_Base_MspInit    0x08008c83   0x60  Code  Gb  tim.o [1]
+HAL_TIM_Base_Start_IT   0x0800d101   0x14  Code  Gb  stm32l0xx_hal_tim.o [1]
+HAL_TIM_Base_Stop_IT    0x0800d115   0x1e  Code  Gb  stm32l0xx_hal_tim.o [1]
+HAL_TIM_ConfigClockSource
+                        0x0800d2b3   0xcc  Code  Gb  stm32l0xx_hal_tim.o [1]
+HAL_TIM_IC_CaptureCallback
+                        0x0800f163    0x2  Code  Wk  stm32l0xx_hal_tim.o [1]
+HAL_TIM_IRQHandler      0x0800d19b  0x118  Code  Gb  stm32l0xx_hal_tim.o [1]
+HAL_TIM_OC_DelayElapsedCallback
+                        0x0800f165    0x2  Code  Wk  stm32l0xx_hal_tim.o [1]
+HAL_TIM_OnePulse_Init   0x0800d155   0x46  Code  Gb  stm32l0xx_hal_tim.o [1]
+HAL_TIM_OnePulse_MspInit
+                        0x0800f161    0x2  Code  Wk  stm32l0xx_hal_tim.o [1]
+HAL_TIM_PWM_PulseFinishedCallback
+                        0x0800f167    0x2  Code  Wk  stm32l0xx_hal_tim.o [1]
+HAL_TIM_PeriodElapsedCallback
+                        0x08005ccd   0x34  Code  Gb  main.o [1]
+HAL_TIM_TriggerCallback
+                        0x0800f169    0x2  Code  Wk  stm32l0xx_hal_tim.o [1]
+HAL_UARTEx_WakeupCallback
+                        0x0800f025    0x2  Code  Wk  stm32l0xx_hal_uart_ex.o [1]
+HAL_UART_AbortReceive   0x0800ae1d   0x4e  Code  Gb  stm32l0xx_hal_uart.o [1]
+HAL_UART_DMAStop        0x0800adc5   0x58  Code  Gb  stm32l0xx_hal_uart.o [1]
+HAL_UART_ErrorCallback  0x0800f021    0x2  Code  Wk  stm32l0xx_hal_uart.o [1]
+HAL_UART_IRQHandler     0x0800ae85  0x184  Code  Gb  stm32l0xx_hal_uart.o [1]
+HAL_UART_Init           0x0800ab81   0x66  Code  Gb  stm32l0xx_hal_uart.o [1]
+HAL_UART_MspDeInit      0x080089d9   0x82  Code  Gb  usart.o [1]
+HAL_UART_MspInit        0x08008761  0x212  Code  Gb  usart.o [1]
+HAL_UART_Receive_DMA    0x0800ad37   0x8e  Code  Gb  stm32l0xx_hal_uart.o [1]
+HAL_UART_RxCpltCallback
+                        0x0800746d    0xe  Code  Gb  main.o [1]
+HAL_UART_RxHalfCpltCallback
+                        0x0800f093    0x2  Code  Wk  stm32l0xx_hal_uart.o [1]
+HAL_UART_Transmit       0x0800abed   0xc6  Code  Gb  stm32l0xx_hal_uart.o [1]
+HAL_UART_Transmit_DMA   0x0800acb3   0x84  Code  Gb  stm32l0xx_hal_uart.o [1]
+HAL_UART_TxCpltCallback
+                        0x08007455   0x12  Code  Gb  main.o [1]
+HAL_UART_TxHalfCpltCallback
+                        0x0800f091    0x2  Code  Wk  stm32l0xx_hal_uart.o [1]
+HandelKeyInterrupt      0x08006411   0x8a  Code  Gb  main.o [1]
+Handel_LED              0x080064ad   0x84  Code  Gb  main.o [1]
+Handel_NB_AT_RSP        0x08006b6d  0x6c4  Code  Gb  main.o [1]
+Handel_ServerData       0x0800a439  0x15e  Code  Gb  nb.o [1]
+Handel_ServerData_Info_RSP
+                        0x0800a5f1   0xd2  Code  Gb  nb.o [1]
+Handel_ServerData_Schedule_Config
+                        0x0800956d   0xee  Code  Gb  schedule.o [1]
+Handel_UNIX_Data        0x0800a9ed   0x62  Code  Gb  nb.o [1]
+Handel_coap_Data        0x0800a7f1  0x194  Code  Gb  nb.o [1]
+HardFault_Handler       0x0800f83b    0x2  Code  Gb  stm32l0xx_it.o [1]
+I2C_Flush_TXDR          0x0800e835   0x1c  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_IsAcknowledgeFailed
+                        0x0800e939   0x64  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_RequestMemoryRead   0x0800e7c7   0x6e  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_RequestMemoryWrite  0x0800e759   0x6e  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_TransferConfig      0x0800e9a7   0x1e  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                        0x0800e851   0x50  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                        0x0800e8f5   0x44  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                        0x0800e8a1   0x54  Code  Lc  stm32l0xx_hal_i2c.o [1]
+InNetCb                 0x08007bc5   0x78  Code  Gb  main.o [1]
+InNetCounter            0x2000022b    0x1  Data  Gb  main.o [1]
+InNetTimeoutclock       0x20001d44    0xc  Data  Gb  nb.o [1]
+InitFlag                0x20000229    0x1  Data  Gb  main.o [1]
+InitFlag_c              0x2000022a    0x1  Data  Gb  main.o [1]
+InnetTimeOutFlag        0x2000022f    0x1  Data  Gb  main.o [1]
+IsFound                 0x0800b605   0x2c  Code  Lc  User_ClockDriver.o [1]
+KeyAction               0x200018a8    0x4  Data  Gb  main.o [1]
+KeyPressTimerCb         0x08005e15   0xec  Code  Gb  main.o [1]
+KeyPressTimerStartFlag  0x200018ac    0x1  Data  Gb  main.o [1]
+KeyPressclock           0x200018bc    0xc  Data  Gb  main.o [1]
+LEDBlinkCb              0x08005f1d   0x40  Code  Gb  main.o [1]
+LEDBlinkclock           0x200018c8    0xc  Data  Gb  main.o [1]
+LEDCb                   0x08005f15    0x8  Code  Gb  main.o [1]
+LEDProcess              0x0800669d   0x76  Code  Gb  main.o [1]
+LED_Blink_Count         0x2000021d    0x1  Data  Lc  main.o [1]
+LED_Init_Blink_Count    0x200018b2    0x1  Data  Lc  main.o [1]
+LED_Init_Blink_Finish   0x20001d97    0x1  Data  Gb  nb.o [1]
+LEDclock                0x20001d38    0xc  Data  Gb  nb.o [1]
+LIS3DH_GetWHO_AM_I      0x0800eb75    0x8  Code  Gb  lis3dh.o [1]
+LIS3DH_HPFAOI1Enable    0x0800ed05   0x30  Code  Gb  lis3dh.o [1]
+LIS3DH_Int1LatchEnable  0x0800edc9   0x34  Code  Gb  lis3dh.o [1]
+LIS3DH_ReadReg          0x0800eb61    0xa  Code  Gb  lis3dh.o [1]
+LIS3DH_SetAxis          0x0800ec69   0x36  Code  Gb  lis3dh.o [1]
+LIS3DH_SetBDU           0x0800ecd3   0x32  Code  Gb  lis3dh.o [1]
+LIS3DH_SetBoot          0x0800edfd   0x28  Code  Gb  lis3dh.o [1]
+LIS3DH_SetFullScale     0x0800ec9f   0x34  Code  Gb  lis3dh.o [1]
+LIS3DH_SetHPFCutOFF     0x0800ed67   0x3c  Code  Gb  lis3dh.o [1]
+LIS3DH_SetHPFMode       0x0800ed35   0x32  Code  Gb  lis3dh.o [1]
+LIS3DH_SetInt1Duration  0x0800ee69   0x14  Code  Gb  lis3dh.o [1]
+LIS3DH_SetInt1Pin       0x0800eda3   0x26  Code  Gb  lis3dh.o [1]
+LIS3DH_SetInt1Threshold
+                        0x0800ee55   0x14  Code  Gb  lis3dh.o [1]
+LIS3DH_SetIntConfiguration
+                        0x0800ee25   0x30  Code  Gb  lis3dh.o [1]
+LIS3DH_SetMode          0x0800ebbb   0xaa  Code  Gb  lis3dh.o [1]
+LIS3DH_SetMode::ODR_old_value
+                        0x20001d93    0x1  Data  Lc  lis3dh.o [1]
+LIS3DH_SetODR           0x0800eb89   0x32  Code  Gb  lis3dh.o [1]
+LIS3DH_WriteReg         0x0800eb6b    0xa  Code  Gb  lis3dh.o [1]
+LPUART1_IRQHandler      0x0800f8db    0x6  Code  Gb  stm32l0xx_it.o [1]
+LPUART1_Rx_Disable      0x0800739f   0x44  Code  Gb  main.o [1]
+LPUART1_Rx_Enable       0x08007399    0x6  Code  Gb  main.o [1]
+Locator_Data            0x200002d0   0x10  Data  Gb  nb.o [1]
+Locator_Data_ReportSleep
+                        0x08009889   0x8e  Code  Gb  schedule.o [1]
+Locator_pram            0x200002e0    0x8  Data  Gb  nb.o [1]
+Lsd_MEMS_Init           0x0800a061   0x2a  Code  Gb  lsd_mems.o [1]
+Lsd_MEMS_SetWakeup_Mode
+                        0x0800a08b   0x6e  Code  Gb  lsd_mems.o [1]
+MEMS_I2C_ReadAddr       0x0800a0f9   0x20  Code  Gb  lsd_mems.o [1]
+MEMS_I2C_WriteAddr      0x0800a119   0x26  Code  Gb  lsd_mems.o [1]
+MX_ADC_Init             0x0800856d   0x6e  Code  Gb  adc.o [1]
+MX_DMA_Init             0x08008531   0x3c  Code  Gb  dma.o [1]
+MX_GPIO_Init            0x08008449   0xe8  Code  Gb  gpio.o [1]
+MX_I2C1_Init            0x08008e55   0x5e  Code  Gb  i2c.o [1]
+MX_LPUART1_UART_Init    0x080086c5   0x34  Code  Gb  usart.o [1]
+MX_RTC_Init             0x08008d99   0x30  Code  Gb  rtc.o [1]
+MX_TIM21_Init           0x08008bbd   0x62  Code  Gb  tim.o [1]
+MX_TIM22_Init           0x08008c21   0x62  Code  Gb  tim.o [1]
+MX_TIM2_Init            0x08008b55   0x66  Code  Gb  tim.o [1]
+MX_USART1_UART_Init     0x080086f9   0x34  Code  Gb  usart.o [1]
+MX_USART2_UART_Init     0x0800872d   0x34  Code  Gb  usart.o [1]
+Min                     0x0800b631   0x44  Code  Lc  User_ClockDriver.o [1]
+ModeDisplayCb           0x08007b15   0xa2  Code  Gb  main.o [1]
+ModeDisplayCount        0x20000221    0x1  Data  Gb  main.o [1]
+ModeDisplayclock        0x200018ec    0xc  Data  Gb  main.o [1]
+ModeSwitchFlag          0x20000222    0x1  Data  Gb  main.o [1]
+MoveAlarmPreMode        0x20001d91    0x1  Data  Gb  nb.o [1]
+NBResetclock            0x20001d2c    0xc  Data  Gb  main.o [1]
+NBTimeOutFlag           0x200018b3    0x1  Data  Gb  main.o [1]
+NB_AT_CMD_Send          0x0800a159  0x178  Code  Gb  nb.o [1]
+NB_ERROR_counter        0x200018b4    0x1  Data  Gb  main.o [1]
+NB_InNetWork_Flag       0x20001caa    0x1  Data  Gb  nb.o [1]
+NB_NetWork_Init         0x08006af5   0x20  Code  Gb  main.o [1]
+NB_RESETCb              0x08008071   0x50  Code  Gb  main.o [1]
+NB_Recv_Data_Process    0x0800aaa9   0x52  Code  Gb  nb.o [1]
+NB_Report_to_ServerData
+                        0x20000304   0x18  Data  Gb  nb.o [1]
+NB_StateSend_counter    0x20001d99    0x1  Data  Gb  nb.o [1]
+NB_Struct_Upload_Cmd    0x08009c95   0x8a  Code  Gb  FOTA.o [1]
+NB_open_Flag            0x20001d9a    0x1  Data  Gb  nb.o [1]
+NB_reset                0x080082fd   0x56  Code  Gb  main.o [1]
+NB_send_buf             0x2000180c   0x98  Data  Gb  FOTA.o [1]
+NB_send_buf_len         0x200018a4    0x2  Data  Gb  FOTA.o [1]
+NMI_Handler             0x0800f839    0x2  Code  Gb  stm32l0xx_it.o [1]
+NVIC_SetPriority        0x0800c359   0x34  Code  Lc  stm32l0xx_hal_cortex.o [1]
+NVIC_SystemReset        0x080058c1   0x12  Code  Lc  main.o [1]
+Netserch                0x20000298   0x14  Data  Lc  main.o [1]
+Normal_StateFlag        0x200002ee    0x1  Data  Gb  nb.o [1]
+NueStatesProcess        0x08007285  0x100  Code  Gb  main.o [1]
+OTA_flag                0x20000214    0x8  Data  Gb  main.o [1]
+OTAingFlag              0x20001cad    0x1  Data  Gb  nb.o [1]
+OneTimeoutCb            0x08006365    0x8  Code  Gb  main.o [1]
+OneTimeoutclock         0x200018e0    0xc  Data  Gb  main.o [1]
+OpenPsm                 0x20000268   0x20  Data  Lc  main.o [1]
+Open_GPS                0x0800c725    0xa  Code  Gb  gps.o [1]
+Open_NB                 0x0800a149    0xe  Code  Gb  nb.o [1]
+PLLMulTable             0x0800f990    0xc  Data  Gb  system_stm32l0xx.o [1]
+PT_flag                 0x200018b8    0x1  Data  Gb  main.o [1]
+PendSV_Handler          0x0800f83f    0x2  Code  Gb  stm32l0xx_it.o [1]
+Pre_Bat_Level           0x20000228    0x1  Data  Gb  main.o [1]
+RCC_SetFlashLatencyFromMSIRange
+                        0x0800bf4b   0x5e  Code  Lc  stm32l0xx_hal_rcc.o [1]
+RTC_Bcd2ToByte          0x0800e3d3   0x10  Code  Gb  stm32l0xx_hal_rtc.o [1]
+RTC_ByteToBcd2          0x0800e3bd   0x16  Code  Gb  stm32l0xx_hal_rtc.o [1]
+RTC_EnterInitMode       0x0800e381   0x36  Code  Gb  stm32l0xx_hal_rtc.o [1]
+RTC_IRQHandler          0x0800f84d    0xa  Code  Gb  stm32l0xx_it.o [1]
+RTC_Timer_Start         0x0800753d   0x2a  Code  Gb  main.o [1]
+RTCstate                0x20000232    0x1  Data  Gb  main.o [1]
+Region$$Table$$Base     0x0800fa3c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800fa5c          --   Gb  - Linker created -
+RegistFinishFlag        0x20001cac    0x1  Data  Gb  nb.o [1]
+RegistFlag              0x200002e9    0x1  Data  Gb  nb.o [1]
+RegistStateFlag         0x20001ca9    0x1  Data  Gb  nb.o [1]
+Retry_state             0x200002ec    0x1  Data  Gb  nb.o [1]
+SVC_Handler             0x0800f83d    0x2  Code  Gb  stm32l0xx_it.o [1]
+ScheduleModeProcess     0x08008029   0x38  Code  Gb  main.o [1]
+ScheduleParmSet         0x0800a6c9   0xc4  Code  Gb  nb.o [1]
+Schedule_CMD            0x20001d70    0x8  Data  Gb  schedule.o [1]
+Schedule_CMD_State      0x20001c08    0x4  Data  Gb  schedule.o [1]
+Schedule_Data_Report    0x08009369  0x1ee  Code  Gb  schedule.o [1]
+Schedule_Data_upload    0x20001d08   0x14  Data  Gb  schedule.o [1]
+Schedule_ModeFlag       0x20001da3    0x1  Data  Gb  schedule.o [1]
+Schedule_Mode_Data      0x20001d68    0x8  Data  Gb  schedule.o [1]
+Schedule_Mode_GPSFlag   0x200018b5    0x1  Data  Gb  main.o [1]
+Schedule_State          0x20001da4    0x1  Data  Gb  schedule.o [1]
+Schedule_StateSend_counter
+                        0x20001da6    0x1  Data  Gb  schedule.o [1]
+Schedule_StateStartFlag
+                        0x20001da5    0x1  Data  Gb  schedule.o [1]
+Signal_Level            0x20000348    0xc  Data  Gb  schedule.o [1]
+SleepIO_Config          0x0800825d   0x76  Code  Gb  main.o [1]
+SleepStatus             0x20001d96    0x1  Data  Gb  nb.o [1]
+State_Init              0x0800656d  0x11e  Code  Gb  main.o [1]
+StopMode_Measure        0x08005d15   0x70  Code  Gb  main.o [1]
+SysTick_Handler         0x0800f841    0xc  Code  Gb  stm32l0xx_it.o [1]
+SystemClock_Config      0x08005a6b   0xa6  Code  Gb  main.o [1]
+SystemCoreClock         0x20000358    0x4  Data  Gb  system_stm32l0xx.o [1]
+SystemInit              0x0800f925   0x3e  Code  Gb  system_stm32l0xx.o [1]
+TIM21_IRQHandler        0x0800f8af    0xa  Code  Gb  stm32l0xx_it.o [1]
+TIM22_IRQHandler        0x0800f8b9    0xa  Code  Gb  stm32l0xx_it.o [1]
+TIM2_IRQHandler         0x0800f8a5    0xa  Code  Gb  stm32l0xx_it.o [1]
+TIM_Base_SetConfig      0x0800d389   0x46  Code  Lc  stm32l0xx_hal_tim.o [1]
+TIM_ETR_SetConfig       0x0800d42b   0x14  Code  Lc  stm32l0xx_hal_tim.o [1]
+TIM_ITRx_SetConfig      0x0800d41b   0x10  Code  Lc  stm32l0xx_hal_tim.o [1]
+TIM_TI1_ConfigInputStage
+                        0x0800d3d5   0x22  Code  Lc  stm32l0xx_hal_tim.o [1]
+TIM_TI2_ConfigInputStage
+                        0x0800d3f7   0x24  Code  Lc  stm32l0xx_hal_tim.o [1]
+TLocator_Data_Report    0x0800967d  0x1f8  Code  Gb  schedule.o [1]
+TSETCb                  0x080082f5    0x8  Code  Gb  main.o [1]
+TaskDelete              0x0800b675   0x58  Code  Lc  User_ClockDriver.o [1]
+Testclock               0x2000191c    0xc  Data  Gb  main.o [1]
+TimeSynclock            0x20001c24    0xc  Data  Gb  schedule.o [1]
+Time_Syn_Retry_Num      0x20001c20    0x1  Data  Gb  schedule.o [1]
+Time_synFlag            0x20001da2    0x1  Data  Gb  schedule.o [1]
+Time_syn_Cb             0x08009917    0x2  Code  Gb  schedule.o [1]
+Time_syn_RetryTimerInit
+                        0x08009919   0x12  Code  Gb  schedule.o [1]
+Time_syning_Flag        0x20001da7    0x1  Data  Gb  schedule.o [1]
+TrackerCycle_short_Flag
+                        0x200002eb    0x1  Data  Gb  nb.o [1]
+TxCompleteFlag          0x20001d9d    0x1  Data  Gb  nb.o [1]
+UART1_Rx_Disable        0x0800740d   0x40  Code  Gb  main.o [1]
+UART1_Rx_Enable         0x080073e3   0x10  Code  Gb  main.o [1]
+UART_AdvFeatureConfig   0x0800b241   0xc8  Code  Gb  stm32l0xx_hal_uart.o [1]
+UART_CheckIdleState     0x0800b309   0x64  Code  Gb  stm32l0xx_hal_uart.o [1]
+UART_DMAAbortOnError    0x0800b4fd   0x14  Code  Lc  stm32l0xx_hal_uart.o [1]
+UART_DMAError           0x0800b4b7   0x46  Code  Lc  stm32l0xx_hal_uart.o [1]
+UART_DMAReceiveCplt     0x0800b457   0x3e  Code  Lc  stm32l0xx_hal_uart.o [1]
+UART_DMARxHalfCplt      0x0800b4ad    0xa  Code  Lc  stm32l0xx_hal_uart.o [1]
+UART_DMATransmitCplt    0x0800b41d   0x30  Code  Lc  stm32l0xx_hal_uart.o [1]
+UART_DMATxHalfCplt      0x0800b44d    0xa  Code  Lc  stm32l0xx_hal_uart.o [1]
+UART_EndRxTransfer      0x0800b3ef   0x1c  Code  Lc  stm32l0xx_hal_uart.o [1]
+UART_EndTxTransfer      0x0800b3dd   0x12  Code  Lc  stm32l0xx_hal_uart.o [1]
+UART_Receive_IT         0x0800b511   0x70  Code  Lc  stm32l0xx_hal_uart.o [1]
+UART_SetConfig          0x0800b00d  0x214  Code  Gb  stm32l0xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                        0x0800b371   0x62  Code  Gb  stm32l0xx_hal_uart.o [1]
+USART1_IRQHandler       0x0800f8c3    0x6  Code  Gb  stm32l0xx_it.o [1]
+USART2_IRQHandler       0x0800f8c9    0x4  Code  Gb  stm32l0xx_it.o [1]
+UnbindCb                0x08007c45    0x8  Code  Gb  main.o [1]
+UsartReceive_IDLE       0x08008a79   0xb6  Code  Gb  usart.o [1]
+UsartType               0x200007e8  0x450  Data  Gb  usart.o [1]
+UsartType2              0x20000c38   0x38  Data  Gb  usart.o [1]
+UserDataInit            0x08005b11   0x4c  Code  Gb  main.o [1]
+UserIOInit              0x08007481   0x1e  Code  Gb  main.o [1]
+UserStartLedClock       0x08007a6d   0x1c  Code  Gb  main.o [1]
+UserStopLedClock        0x08007a9d   0x12  Code  Gb  main.o [1]
+UserTimerInit           0x08005bb1  0x110  Code  Gb  main.o [1]
+User_AdcProcess         0x08007d69   0xe6  Code  Gb  main.o [1]
+User_Event_Process      0x08007739  0x326  Code  Gb  main.o [1]
+User_NB_TaskProcess     0x080067d9  0x1e2  Code  Gb  main.o [1]
+User_StartClock         0x0800b73d   0x84  Code  Gb  User_ClockDriver.o [1]
+User_StopClock          0x0800b6cd   0x70  Code  Gb  User_ClockDriver.o [1]
+User_TaskRemarks        0x0800b7c1   0x5e  Code  Gb  User_ClockDriver.o [1]
+User_Timer_Diff_ms      0x0800b5f9    0xc  Code  Gb  User_ClockDriver.o [1]
+User_Timer_Start        0x0800b5cd   0x2c  Code  Gb  User_ClockDriver.o [1]
+User_Timer_TaskProcess  0x0800b81f   0x60  Code  Gb  User_ClockDriver.o [1]
+User_UartProcess        0x08007e5d   0x56  Code  Gb  main.o [1]
+_Error_Handler          0x080083f9    0x2  Code  Gb  main.o [1]
+_IsdstStr               0x20000374    0x4  Data  Gb  setlocale.o [3]
+_LocaleC_isspace        0x0800f2ad   0x14  Code  Gb  xlocale_c.o [3]
+_LocaleC_tolower        0x0800f2c1    0xc  Code  Gb  xlocale_c.o [3]
+_LocaleForCat           0x0800f299   0x10  Code  Gb  setlocale.o [3]
+_LocaleReturnString     0x20000394   0x50  Data  Lc  setlocale.o [3]
+_Locale_Profile         0x20000378   0x1c  Data  Gb  setlocale.o [3]
+_Strtok_ssave           0x2000036c    0x4  Data  Lc  strtok.o [3]
+_TzoneStr               0x20000370    0x4  Data  Gb  setlocale.o [3]
+__aeabi_errno_addr      0x0800f151    0xa  Code  Gb  errno.o [3]
+__aeabi_idiv            0x0800c2a5         Code  Gb  I32DivModFast.o [4]
+__aeabi_idiv0           0x0800f095         Code  Gb  IntDivZer.o [4]
+__aeabi_idivmod         0x0800c2a5         Code  Gb  I32DivModFast.o [4]
+__aeabi_ldiv0           0x0800f289         Code  Gb  I64DivZer.o [4]
+__aeabi_memclr          0x0800d8cd         Code  Gb  ABImemset.o [4]
+__aeabi_memclr4         0x0800d8d1         Code  Gb  ABImemset.o [4]
+__aeabi_memclr8         0x0800d8d1         Code  Gb  ABImemset.o [4]
+__aeabi_memcpy          0x08009c39         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4         0x08009c61         Code  Wk  ABImemcpy.o [4]
+__aeabi_uidiv           0x0800c2ab         Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod        0x0800c2ab         Code  Gb  I32DivModFast.o [4]
+__aeabi_uldivmod        0x0800f027         Code  Gb  I64DivMod.o [4]
+__aeabi_uread4          0x0800ea55         Code  Gb  uread4.o [4]
+__aeabi_uwrite4         0x0800cef9         Code  Gb  uwrite4.o [4]
+__cmain                 0x0800fa5d         Code  Gb  cmain.o [4]
+__exit                  0x0800f2cd   0x14  Code  Gb  exit.o [5]
+__iar_Errno             0x200003e4    0x4  Data  Gb  errno.o [3]
+__iar_Memchr            0x0800f139   0x18  Code  Gb  memchr.o [4]
+__iar_Memset4_word      0x0800d89d         Code  Gb  ABImemset.o [4]
+__iar_Memset_word       0x0800d889         Code  Gb  ABImemset.o [4]
+__iar_Stoul             0x0800ce9f    0xa  Code  Gb  xstoul.o [3]
+__iar_Stoulx            0x0800cd7d  0x122  Code  Gb  xstoul.o [3]
+__iar_Strstr            0x0800cd45   0x38  Code  Gb  strstr.o [3]
+__iar_data_init3        0x0800fa15   0x28  Code  Gb  data_init.o [4]
+__iar_dlib_perthread_access
+                        0x0800f097    0x2  Code  Gb  xtls.o [3]
+__iar_packbits_init_single3
+                        0x0800f9d9   0x3c  Code  Gb  packbits_init_single.o [4]
+__iar_program_start     0x0800fa8d         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x0800f99d   0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init        0x0800fa77    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08005800         Data  Gb  startup_stm32l051xx.o [1]
+_call_main              0x0800fa69         Code  Gb  cmain.o [4]
+_exit                   0x0800f28d         Code  Gb  cexit.o [4]
+_main                   0x0800fa73         Code  Gb  cmain.o [4]
+adc_counter             0x20000234    0x2  Data  Gb  main.o [1]
+adc_timeoutFlag         0x20000226    0x1  Data  Gb  main.o [1]
+applib_dt_dayindex      0x0800eef7   0x7a  Code  Gb  UNIX.o [1]
+applib_dt_is_leap_year  0x0800eea1   0x30  Code  Gb  UNIX.o [1]
+applib_dt_last_day_of_mon
+                        0x0800eed1   0x26  Code  Gb  UNIX.o [1]
+ascsToHexs              0x0800cbdb   0x26  Code  Gb  tools.o [1]
+at_cmd_data_p           0x20000c70  0x400  Data  Gb  tools.o [1]
+chargeEnable            0x2000021e    0x1  Data  Lc  main.o [1]
+chargeFinish            0x2000021f    0x1  Data  Gb  main.o [1]
+charsToHex              0x0800cb7d   0x5e  Code  Gb  tools.o [1]
+charsToHex1             0x0800cd13   0x32  Code  Gb  tools.o [1]
+checkSum                0x0800cc01   0x1c  Code  Gb  tools.o [1]
+checkSumChar            0x0800cc1d   0x22  Code  Gb  tools.o [1]
+clock_list              0x20001538  0x12c  Data  Gb  User_ClockDriver.o [1]
+clock_list_idx          0x2000035c    0x1  Data  Gb  User_ClockDriver.o [1]
+closeAllLed             0x0800671d   0x26  Code  Gb  main.o [1]
+cmd159Counter           0x2000022c    0x1  Data  Gb  main.o [1]
+cmd_OK_Flag             0x20001cab    0x1  Data  Gb  nb.o [1]
+cmeErrorCounter         0x200018b9    0x1  Data  Gb  main.o [1]
+coapEnterSleep          0x2000031c   0x20  Data  Gb  nb.o [1]
+crc16_ccitt_table       0x20000014  0x200  Data  Gb  crc16.o [1]
+crc_check               0x0800eb29    0xe  Code  Gb  crc16.o [1]
+curAT_RSP_ID            0x200002ea    0x1  Data  Gb  nb.o [1]
+currentLoadValue        0x20000360    0x4  Data  Gb  User_ClockDriver.o [1]
+currentMode             0x200002e8    0x1  Data  Gb  nb.o [1]
+cycleStartFlag          0x20001da8    0x1  Data  Gb  schedule.o [1]
+dataCycle               0x200002f4    0x2  Data  Gb  nb.o [1]
+data_confirmFlag        0x20001d98    0x1  Data  Gb  nb.o [1]
+digits                  0x0800cea8   0x28  Data  Lc  xstoul.o [3]
+do_crc                  0x0800eb01   0x24  Code  Gb  crc16.o [1]
+eff_satCounter          0x20001d92    0x1  Data  Gb  gps.o [1]
+endWeekCycle            0x080091a5   0x2a  Code  Gb  schedule.o [1]
+event                   0x20000238    0x4  Data  Gb  main.o [1]
+exit                    0x0800f0e1    0x8  Code  Gb  exit.o [3]
+fota_cmd_buf            0x20001bd0   0x34  Data  Gb  FOTA.o [1]
+fota_info               0x20001c30   0x28  Data  Gb  FOTA.o [1]
+funNB_reset             0x08008361   0x38  Code  Gb  main.o [1]
+g_day_per_mon           0x0800f014    0xc  Data  Gb  UNIX.o [1]
+getFollowedMode         0x080091d9  0x162  Code  Gb  schedule.o [1]
+getRTC_Date_Time        0x08009031   0x42  Code  Gb  schedule.o [1]
+gps_open_Flag           0x20001d9b    0x1  Data  Gb  nb.o [1]
+gps_serch_counter       0x200018ba    0x2  Data  Gb  main.o [1]
+hadc                    0x20001a7c   0x60  Data  Gb  adc.o [1]
+hdma_lpuart1_rx         0x200013b8   0x40  Data  Gb  usart.o [1]
+hdma_lpuart1_tx         0x200013f8   0x40  Data  Gb  usart.o [1]
+hdma_usart1_rx          0x20001438   0x40  Data  Gb  usart.o [1]
+hdma_usart1_tx          0x20001478   0x40  Data  Gb  usart.o [1]
+hdma_usart2_rx          0x200014b8   0x40  Data  Gb  usart.o [1]
+hdma_usart2_tx          0x200014f8   0x40  Data  Gb  usart.o [1]
+hex2String              0x0800cc99   0x36  Code  Gb  tools.o [1]
+hex_to_dig              0x0800cd03   0x10  Code  Gb  tools.o [1]
+hi2c1                   0x20001adc   0x4c  Data  Gb  i2c.o [1]
+hlpuart1                0x2000192c   0x70  Data  Gb  usart.o [1]
+hrtc                    0x20001ccc   0x24  Data  Gb  rtc.o [1]
+htim2                   0x20001b28   0x38  Data  Gb  tim.o [1]
+htim21                  0x20001b60   0x38  Data  Gb  tim.o [1]
+htim22                  0x20001b98   0x38  Data  Gb  tim.o [1]
+huart1                  0x2000199c   0x70  Data  Gb  usart.o [1]
+huart2                  0x20001a0c   0x70  Data  Gb  usart.o [1]
+isspace                 0x0800f115   0x12  Code  Gb  isxxx.o [3]
+keyFlag                 0x200018b7    0x1  Data  Gb  main.o [1]
+lastStartTimer_sysT32   0x20000364    0x4  Data  Lc  User_ClockDriver.o [1]
+main                    0x080058d5  0x196  Code  Gb  main.o [1]
+memcmp                  0x0800eb37   0x28  Code  Gb  memcmp.o [4]
+memsIsOpen              0x20001d94    0x1  Data  Lc  lsd_mems.o [1]
+moveFlagCounter         0x20001da1    0x1  Data  Gb  nb.o [1]
+moveState               0x20000231    0x1  Data  Gb  main.o [1]
+moveStopFlag            0x200018b6    0x1  Data  Gb  main.o [1]
+move_alarm_Flag         0x20001d90    0x1  Data  Gb  nb.o [1]
+move_alarm_Init_Flag    0x200002f0    0x1  Data  Gb  nb.o [1]
+move_alarm_enable_Flag  0x200002ef    0x1  Data  Gb  nb.o [1]
+move_continue_Flag      0x20000227    0x1  Data  Gb  main.o [1]
+msg_seq_num             0x200002f2    0x2  Data  Gb  nb.o [1]
+my_time                 0x20001d78    0x8  Data  Gb  UNIX.o [1]
+mystrstr                0x0800cccf   0x34  Code  Gb  tools.o [1]
+nb_gps_data             0x20001c58   0x14  Data  Gb  gps.o [1]
+ndigs                   0x0800ced0   0x28  Data  Lc  xstoul.o [3]
+pFlash                  0x20001cf0   0x18  Data  Gb  stm32l0xx_hal_flash.o [1]
+packageFinishFlag       0x20001d1d    0x1  Data  Gb  nb.o [1]
+print                   0x08009a9d  0x102  Code  Lc  printf-stdarg.o [1]
+printchar               0x08009965   0x20  Code  Lc  printf-stdarg.o [1]
+printf                  0x08009b9f   0x14  Code  Gb  printf-stdarg.o [1]
+printi                  0x080099f5   0xa6  Code  Lc  printf-stdarg.o [1]
+prints                  0x0800998d   0x68  Code  Lc  printf-stdarg.o [1]
+regist_counter          0x200018a6    0x2  Data  Gb  main.o [1]
+schedule_recoverFlag    0x2000022e    0x1  Data  Gb  main.o [1]
+sdatestructure          0x20001c04    0x4  Data  Gb  schedule.o [1]
+serviceCMD_Process_result
+                        0x20001d1c    0x1  Data  Gb  nb.o [1]
+setRTC_Date_Time        0x08008f65   0xac  Code  Gb  schedule.o [1]
+sleepCounter            0x20000230    0x1  Data  Gb  main.o [1]
+sprintf                 0x08009bb3   0x12  Code  Gb  printf-stdarg.o [1]
+stimestructure          0x20001c0c   0x14  Data  Gb  schedule.o [1]
+str2                    0x20001cb0    0x4  Data  Gb  nb.o [1]
+strcat                  0x0800f0e9   0x1c  Code  Gb  strcat.o [3]
+strcpy                  0x0800f105         Code  Gb  strcpy.o [4]
+strcspn                 0x0800f0bd   0x24  Code  Gb  strcspn.o [3]
+strlen                  0x0800cb6d   0x10  Code  Gb  strlen.o [4]
+strncmp                 0x0800b5a1   0x2c  Code  Gb  strncmp.o [3]
+strncpy                 0x0800ee7d   0x24  Code  Gb  strncpy.o [4]
+strspn                  0x0800f099   0x24  Code  Gb  strspn.o [3]
+strtok                  0x0800cb1d   0x50  Code  Gb  strtok.o [3]
+switchToToday           0x0800909d  0x104  Code  Gb  schedule.o [1]
+taskEvents              0x20000368    0x4  Data  Lc  User_ClockDriver.o [1]
+testFlag2               0x20001d9f    0x1  Data  Gb  nb.o [1]
+testFlag3               0x20001da0    0x1  Data  Gb  nb.o [1]
+tolower                 0x0800f127   0x12  Code  Gb  tolower.o [3]
+tool_memcpy             0x0800cc3f   0x14  Code  Gb  tools.o [1]
+tool_strcat             0x0800cc53   0x3e  Code  Gb  tools.o [1]
+utc_sec_2_mytime        0x0800ef71   0x9c  Code  Gb  UNIX.o [1]
+uwTick                  0x20001d8c    0x4  Data  Gb  stm32l0xx_hal.o [1]
+wakeupCounter           0x20001d88    0x4  Data  Gb  nb.o [1]
+
+
+[1] = D:\TELUS\AIS_PROGRAM\Locator_L051T8_AIS_alarm_AIS_NW_OTA2_SENSOR_TW120\EWARM\Locator_L051T8\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  40 230 bytes of readonly  code memory
+   2 139 bytes of readonly  data memory
+   7 593 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
